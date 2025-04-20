@@ -10,12 +10,12 @@
 1. Module usage: we use "heapq" to create a priority queue and use "sys" to input command-line arguments
 2. Structure: we use class Wrapper to build the structure of the tree
 3. Functions：
-     3.1 huffman_tree(data)：
-         This function is used to convert the input data into tree in huffman structure by firstly counting the frequency of each character, put them into heap and dynamically merging the two least frequent nodes.
-     3.2 generating_codes(node, prefix="", codelist={},freqlist={}):
-         This function generates the huffman codes by traversing the huffman tree structure and generating the code in recursion.
-     3.3 encode(data):
-         Utilize the output of previous two functions to completely transfer the data into encoded data in a line.
-     3.4 The following codes:
-         Read the data of the input file
-         Output two required files by utilizing the output of previous functions
+   - huffman_tree(data)：
+       - This function is used to convert the input data into tree in huffman structure by firstly counting the frequency of each character, put them into heap and dynamically merging the two least frequent nodes.
+   - generating_codes(node, prefix="", codelist={},freqlist={}):
+       - This function generates the huffman codes by traversing the huffman tree structure and generating the code in recursion.
+   - encode(data):
+       - Utilize the output of previous two functions to completely transfer the data into encoded data in a line.
+   - The following codes:
+       - Read the data of the input file
+       - Output two required files by utilizing the output of previous functions
