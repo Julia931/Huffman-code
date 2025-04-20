@@ -1,5 +1,4 @@
 # Huffman-code
-COMP 2119 Assignment 3
 
 Execution method:
   1. Dowload the file "hmencoder.py"
