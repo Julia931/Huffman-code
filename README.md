@@ -1,12 +1,12 @@
 # Huffman-code
 
-Execution method:
+**Execution method:**
   1. Dowload the file "hmencoder.py"
   2. Use Terminal by entering "python3 hmencoder.py [input_filename]"
      eg. if the input file called input.txt, then in the terminal, we just need to enter "python hmencoder.py input.txt"
   3、Then the output files "code.txt" and "encodemsg.txt" are generated
 
-Description of the code:
+**Description of the code:**
 1. Module usage: we use "heapq" to create a priority queue and use "sys" to input command-line arguments
 2. Structure: we use class Wrapper to build the structure of the tree
 3. Functions：
